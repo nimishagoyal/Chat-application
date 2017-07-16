@@ -1,0 +1,69 @@
+body{
+    /*padding: 15px;*/
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#messages {
+    width: 70%;
+    float: left;
+    height: 430px;
+    overflow: auto;
+
+}
+/*#messages-section{*/
+
+    /*border: 1px solid black;*/
+/*}*/
+#user-section
+{
+    width: 20%;
+    float: right;
+}
+#users{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+#users li:before {
+    content: "\f111";
+    font-family: FontAwesome;
+    color: green; /* or whatever color you prefer */
+    margin-right: 4px;
+    font-size: 10px;
+}
+#input-section{
+    position: absolute;
+    bottom: 30px;
+    left:48px;
+}
+#inp{
+    word-wrap: break-word;
+    width: 800px;
+    height: 35px;
+    font-size: 16px;
+}
+#btn{
+    font-size: 16px;
+    padding: 12px;
+}
+#heading-users{
+    font-weight: bold;
+    font-size: 16px;
+}
+.msg{
+
+    margin-top: 10px;
+}
+.name{
+    font-weight: bold;
+}
+.main{
+   /* background-color: lightgrey;*/
+    background-color: 	#DCDCDC;
+    border-radius: 6px;
+
+    padding: 2px;
+}
+h1{
+    text-align: center;
+}
